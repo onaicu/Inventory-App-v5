@@ -1,0 +1,127 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Inventory</string>
+
+    <!-- Label for overflow menu option that inserts fake product data into the app -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all product data in the app -->
+    <string name="action_delete_all_entries">Delete All Products</string>
+
+    <!-- Title for the activity to add a new product -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Label for editor menu option to save product and leave editor -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Label for the quantity text view title [CHAR LIMIT=20] -->
+    <string name="category_quantity">Quantity</string>
+
+    <!-- Label for supplier information in the editor -->
+    <string name="category_supplier">Supplier</string>
+
+    <!-- Label for value information in the editor-->
+    <string name="category_value">Value</string>
+
+    <!-- Label for Sold information in the editor-->
+    <string name="category_sold">Sold</string>
+
+    <!-- Text hint for name field in the editor-->
+    <string name="hint_product_name">Name</string>
+
+    <!-- Text hint for current quantity field in the editor -->
+    <string name="hint_product_CurrentQuantity">Current Quantity</string>
+
+    <!-- Text hint for price per unit/quanity field in the editor -->
+    <string name="hint_product_UnitPrice">Unit Price</string>
+
+    <!-- Text hint for price per sold unit field in the editor -->
+    <string name="hint_product_UnitSold">Sold quantity</string>
+
+    <!-- Currency for price of the products (CHF) -->
+    <string name="price_product_currency">CHF</string>
+
+    <!-- Label for dropdown menu option if the product's supplier is unknown -->
+    <string name="supplier_unknown">Supplier: Unknown</string>
+
+    <!-- Label for dropdown menu option if the supplier of the product is a US supplier-->
+    <string name="supplier_us">Supplier U.S.A.</string>
+
+    <!-- Label for dropdown menu option if the supplier of the product is a China supplier -->
+    <string name="supplier_china">Supplier China</string>
+
+    <!-- Toast message in editor when new product has been successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Product saved</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving product</string>
+
+    <!--  Title text for the empty view, which describes the empty inventory image -->
+    <string name="empty_view_title_text">Products not available in inventory...</string>
+
+    <!--Subtitle text for the empty view that prompts the user to add a product -->
+    <string name="empty_view_subtitle_text">Get started registering a product</string>
+
+    <!-- Title for the activity to edit an existing product [CHARLIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit Product</string>
+
+    <!--  Toast message in editor when current product was successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Product updated</string>
+
+    <!-- Toast message in editor when current product has failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Error with updating product</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+    <!-- Dialog button text for the option to keep editing the current product [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for the product's name if the name is unknown [CHAR LIMIT=20] -->
+    <string name="unknown_product">Unknown product</string>
+
+    <!-- Label for the email string [CHAR LIMIT=20] -->
+    <string name="email_string">email</string>
+
+    <!--order_summary_email_subject for submit order button-->
+    <string name="order_summary_email_subject"> Inventory order for <xliff:g id="name" example="ProductA">%s</xliff:g></string>
+
+    <!-- Toast message in editor when sale of current product failed[CHAR LIMIT=NONE] -->
+    <string name="sale_failed">Sale failed</string>
+
+    <!-- Toast message in editor when sale of current product succeeded[CHAR LIMIT=NONE] -->
+    <string name="sale_success">Sale successful</string>
+
+    <!-- Dialog message out_of_stock for current product[CHAR LIMIT=NONE] -->
+    <string name="out_of_stock">Out of stock</string>
+
+    <!-- Toast message in editor when order of current product was successful [CHAR LIMIT=NONE] -->
+    <string name="order_successful">Order email sent</string>
+
+    <!-- Strings for buttons on list item [CHAR LIMIT=NONE] -->
+    <string name="sell">Sell</string>
+    <string name="add">Add</string>
+    <string name="upload_picture_button">Upload Photo</string>
+
+</resources>
